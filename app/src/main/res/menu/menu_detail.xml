@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aarushiarya.tryfrag.detailActivity"
+    >
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="200"
+        android:title="Search"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/action_fav"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/ic_white_filled_heart"
+        app:showAsAction="ifRoom"></item>
+</menu>
